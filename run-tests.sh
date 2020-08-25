@@ -9,4 +9,4 @@
 
 pydocstyle flask_sitemap && \
 sphinx-build -qnNW docs docs/_build/html && \
-python setup.py test
+python -m pytest
